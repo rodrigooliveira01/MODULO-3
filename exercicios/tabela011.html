@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo de tabela </title>
+    <style>
+
+     table{border-collapse: collapse;}
+
+     caption{font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;}
+
+     th,td{border: 1px solid black;
+     padding: 5px;}
+
+    </style>
+</head>
+<body>
+    <h1>exercicio de tabelas</h1>
+   
+    <table>
+ <caption>filmes favoritos</caption>
+        <thead>
+          <tr>
+            <th>grupos</th>
+            <th scope="rowgroup">nomes</th>
+            <th colspan="3" scope="colgroup">filmes</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <th rowspan="3" scope="colgroup">mulheres</th>
+                <td>ana clara</td>
+                <td>alien</td>
+                <td>rambo</td>
+                <td>vingadores</td>
+            </tr>
+            <tr>
+                <td>beatriz</td>
+                <td>lobo</td>
+                <td>operario</td>
+                <td>charlie</td>
+            </tr>
+            <tr>
+                <td>claudia</td>
+                <td>spiderman</td>
+                <td>batman</td>
+                <td>huck</td>
+            </tr>
+
+            <tr>
+                <th rowspan="3" scope="colgroup">homens</th>
+                <td>rodrigo</td>
+                <td>alien</td>
+                <td>s.shock</td>
+                <td>spiderman</td>
+            </tr>
+
+        <tr>
+            <td>marcos</td>
+            <td>viuva</td>
+            <td>ratatui</td>
+            <td>toy story</td>
+        </tr>
+        <tr>
+            <td>jose</td>
+            <td>dracula</td>
+            <td>ogro</td>
+            <td>lobsomen</td>
+        </tr>
+
+        </tbody>
+
+    </table>
+    
+</body>
+</html>
