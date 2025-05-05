@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+
+    <style>
+
+     table{width: 200px;
+    border-collapse: collapse;}
+
+     tr,td,th{border: 1px solid black;
+    border-collapse: collapse;}
+
+    .cnome{background-color: aqua;}
+
+    .cidade{background-color: chartreuse;}
+
+    .cpais{background-color: darkred;}
+
+    </style>
+
+</head>
+<body>
+
+    <table>
+
+        <colgroup>
+          <col class="cnome" span="2">
+         <!-- <col class="cidade">-->
+          <col class="cpais">
+        </colgroup>
+ 
+      <tr>
+        <th scope="col">nome</th>
+        <th scope="col">idade</th>
+        <th scope="col">pais</th>
+      </tr> 
+      
+      <tr>
+        <td>carlos</td>
+        <td>22</td>
+        <td>brasil</td>
+      </tr>
+
+      <tr>
+        <td>lidia</td>
+        <td>18</td>
+        <td>canada</td>
+      </tr>
+
+      <tr>
+        <td>juh</td>
+        <td>11</td>
+        <td>angola</td>
+      </tr>
+
+
+    </table>
+    
+</body>
+</html>
